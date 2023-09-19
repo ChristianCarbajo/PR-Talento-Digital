@@ -1,2 +1,2 @@
-# PR-Talento-Degital
+# PR-Talento-Digital
 Proyecto talento digital oculto

@@ -131,6 +131,10 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
+.logo img{
+    max-width: 200px; /* La imagen nunca será más ancha que su tamaño original */
+}
+
 .header-logo {
     position: absolute;
     top: 50%;
@@ -140,12 +144,19 @@ nav ul li a:hover {
     color: var(--primaryOrange);
     font-family: Rubik-Medium;
     z-index: 2;
+    
 }
 
 .header-logo h1,
 .header-logo h2 {
     color: var(--primaryOrange);
     font-family: Rubik-Medium;
+    font-size: 3rem;
+    padding: 1rem;
+    color: var(--primaryOrange);
+    font-weight: bold;
+
+    
 }
 
 /* Agrega una clase para ocultar .header-logo */

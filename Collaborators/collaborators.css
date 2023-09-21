@@ -53,4 +53,9 @@
 .container{
     width: 100vh;
     background-color: var(--primaryOrange);
+    display: flex;
+}
+.container img{
+    width: 25vh;
+    height: 12vh;
 }

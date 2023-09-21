@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: var(--compCoral);
+    background: var(--primaryOrange);
     border-radius: 16px;
     color: var(--white);
     transition: background 0.3s ease-in-out;
@@ -120,7 +120,6 @@ nav ul li a:hover {
     transition: 0.4s;
 }
 
-/* Estilos para el video y el contenido centrado */
 .video-section {
     position: relative;
 }
@@ -132,7 +131,7 @@ nav ul li a:hover {
 }
 
 .logo img{
-    max-width: 200px; /* La imagen nunca será más ancha que su tamaño original */
+    max-width: 200px; 
 }
 
 .header-logo {
@@ -156,14 +155,15 @@ nav ul li a:hover {
     color: var(--primaryOrange);
     font-weight: bold;
 
-    
 }
 
 /* CONTENIDO PRINCIPAL */
 
-.container {
+.container-index {
     display: flex;
     justify-content: space-between;
+    font-family: Rubik-Medium;
+    padding: 4rem;
 }
 
 .about {
@@ -183,7 +183,6 @@ nav ul li a:hover {
     justify-content: center;
     text-align: left;
 }
-/* Agrega una clase para ocultar .header-logo */
 .header-logo.hidden {
     display: none;
 }
@@ -222,7 +221,7 @@ nav ul li a:hover {
         z-index: 2;
         top: auto;
         left: auto;
-        transform: none; /* Centrado vertical y horizontal */
+        transform: none; 
         margin-top: 20px;
     }
 

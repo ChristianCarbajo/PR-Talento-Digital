@@ -159,6 +159,26 @@ nav ul li a:hover {
     
 }
 
+/* CONTENIDO PRINCIPAL */
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about img{
+   
+ 
+
+}
+
+.text-about{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
 /* Agrega una clase para ocultar .header-logo */
 .header-logo.hidden {
     display: none;
@@ -177,6 +197,7 @@ nav ul li a:hover {
         align-items: center;
         justify-content: center;
         height: auto;
+        width: auto;
     }
 
     .menu-toggle {

@@ -1,1 +1,99 @@
+:root{
+    --primaryOrange: #ff4700;
+    --primaryBlack: #020100;
+    --white:  #ffffff;
+    --compGrey: #9C9C9C;
+    --compCoral: #FFA37F;
+}
 
+@font-face {
+    font-family: 'FiraCode-Light';
+    src: url('../fonts/FiraCode-Light.ttf');
+}
+
+@font-face{
+    font-family: 'FiraCode-Regular';
+    src: url('../fonts/FiraCode-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins.Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins.Light';
+    src: url('../fonts/Poppins-Light.ttf');
+
+}
+@font-face{
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik-Bold';
+    src: url('../fonts/Rubik-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik-Medium';
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #ff4700; 
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main-left {
+    width: 50%;
+    height: 100vh;
+}
+
+.main-left-boximage {
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+.main-right {
+    width: 50%;
+    color: #ffffff;
+}
+
+.main-right-text {
+    padding: 9%;
+    text-align: justify;
+}
+
+.adelante {
+    margin-top: 5%;
+}
+
+.btn {
+    margin-left: 35%;
+}
+
+.btn button {
+    width: 13vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 2.3vh;
+    color: #ffffff;
+    background-color: #020100;
+    cursor: unset;
+    margin-top: 65%;
+}

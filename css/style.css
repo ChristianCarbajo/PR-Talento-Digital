@@ -49,3 +49,42 @@
 .prueba{
     font-family: 'Rubik-Poppins.Bold', Helvetica, sans-serif;
 }
+
+.footer{
+   font-size: 14px;
+   background-color: var(--primaryOrange);
+   align-items: center;
+}
+
+.footer3{  
+    font-family:'Poppins.Bold';
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center; 
+    font-size: 13px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+ .iconos{
+    display: flex;
+    text-align: center;  
+    justify-content: flex-end;
+    
+}
+
+.iconos img{
+    height: 3vh;
+    width: 3vh;
+    margin: 3px;
+    justify-content: center;
+}
+ 
+.texto{
+display:flex;
+justify-content: center;
+}
+
+
+

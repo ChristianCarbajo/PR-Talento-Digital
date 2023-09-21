@@ -292,4 +292,28 @@ nav ul li a:hover {
         text-decoration: none;
         font-size: 18px;
     }
+
+    @media (max-width: 768px) {
+        .container-index,
+        .container-index-right {
+            flex-direction: column; /* Cambia la dirección de flexión a columna */
+            align-items: center; /* Centra los elementos horizontalmente */
+            text-align: center; /* Alinea el texto al centro */
+        }
+    
+        .container-index .text-about,
+        .container-index-right .text-about {
+            padding: 20px; /* Aumenta el espacio interno para separar el texto de los bordes */
+        }
+    
+        .container-index img,
+        .container-index-right img {
+            width: 100%; /* Establece el ancho de la imagen al 100% para que ocupe todo el ancho disponible */
+            max-width: none; /* Elimina la restricción del ancho máximo */
+            height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+        }
+    }
+    
 }
+
+

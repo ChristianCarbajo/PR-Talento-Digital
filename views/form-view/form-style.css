@@ -2,8 +2,12 @@
     display:flex;
     justify-content: center;
     align-items: center;
-
     background-color:#FF4700;
+}
+.textbox-div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
 }
 .form-nameboxText {
     font-family: 'Poppins.Medium';
@@ -23,7 +27,7 @@
 }
 table {
     background-color: white;
-    border: #FF4700 1px solid;
+    border: #FF4700;
     display:flexbox;
     margin: 0 auto;
     border-color: #FF4700;

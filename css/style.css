@@ -6,6 +6,15 @@
     --compCoral: #FFA37F;
 }
 
+p{
+    font-family: 'FiraCode-Regular';
+    font-size: 2rem;
+}
+
+
+
+
+
 @font-face {
     font-family: 'FiraCode-Light';
     src: url('../fonts/FiraCode-Light.ttf');
@@ -207,6 +216,51 @@ nav ul li a:hover {
     border: 4px solid var(--white);
 }
 
+footer {
+    background-color: var(--primaryOrange); /* Color de fondo del footer (cambia según tus preferencias) */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Color del texto (cambia según tus preferencias) */
+}
+
+footer h3{
+    font-family:'Poppins.Bold';
+}
+
+footer a {
+    font-family: 'FiraCode-Regular';
+}
+
+/* Estilos para el logotipo en el footer */
+.footer-logo {
+    display: block;
+    margin: 0 auto; /* Esto centrará horizontalmente el logotipo */
+    max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+/* Estilos para los enlaces y otros elementos del footer */
+.links-footer {
+    margin-top: 20px;
+}
+
+.links-footer p,
+.links-footer a {
+    color: #fff; /* Color del texto (cambia según tus preferencias) */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Estilos para los iconos sociales */
+.social-footer {
+    margin-top: 20px;
+}
+
+.social-footer img {
+    width: 30px; /* Tamaño de los iconos sociales (ajusta según tus necesidades) */
+    margin: 0 10px;
+}
+
 @media (max-width: 768px) {
     .video-prin {
         max-width: 100%;
@@ -296,21 +350,21 @@ nav ul li a:hover {
     @media (max-width: 768px) {
         .container-index,
         .container-index-right {
-            flex-direction: column; /* Cambia la dirección de flexión a columna */
-            align-items: center; /* Centra los elementos horizontalmente */
-            text-align: center; /* Alinea el texto al centro */
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
         }
     
         .container-index .text-about,
         .container-index-right .text-about {
-            padding: 20px; /* Aumenta el espacio interno para separar el texto de los bordes */
+            padding: 20px; 
         }
     
         .container-index img,
         .container-index-right img {
-            width: 100%; /* Establece el ancho de la imagen al 100% para que ocupe todo el ancho disponible */
-            max-width: none; /* Elimina la restricción del ancho máximo */
-            height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+            width: 100%; 
+            max-width: none; 
+            height: auto; 
         }
     }
     

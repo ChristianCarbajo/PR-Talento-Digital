@@ -1,0 +1,50 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#FF4700;
+}
+.form-nameboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    color: white;
+}
+.form-emailboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    color:white;
+}
+
+.form-fechaboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    color:white;
+}
+table {
+    background-color: white;
+    border: #FF4700 1px solid;
+    display:flexbox;
+    margin: 0 auto;
+    border-color: #FF4700;
+}
+.table-header {
+    font-family: 'FiraCode-Regular';
+    src: url('../fonts/FiraCode-Regular.ttf');
+}
+td {
+    font-family: 'Rubik-Medium';
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+td ,th {
+    border:#FF4700 1px solid;
+    padding: 2vh;
+}
+.table-header {
+    background-color: #FFA37F;
+}
+input[type="checkbox"] {
+    display: block;
+    margin: 0 auto;
+
+}

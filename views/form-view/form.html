@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../form-view/form-style.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="TalentoForm" onsubmit="enviarFormulario()" method="post">
+            <p class="form-nameboxText">Nombre y Apellidos</p>
+            <input type="text" name="name" required>
+        
+            <p class="form-emailboxText">E-mail</p>
+            <input type="email" id="emailInput" required>
+        
+            <p class="form-fechaboxText">Fecha de Nacimiento</p>
+            <input type="date" id="fechaInput" required>
+
+        <table>
+            <thead class="table-header"> 
+            <tr>
+            <th>1. Competencias digitales básicas</th>
+            <th>Sí</th>
+            <th>No</th>
+            <th>NS/NC</th>
+            </tr>
+            </thead>
+                
+            <tr>
+                <td>1.1 Tengo curiosidad hacia la tecnología e interés en mantenerme actualizado/a</td>
+                <td><input type="checkbox" name="1.1-Si"></td> 
+                <td><input type="checkbox" name="1.1-No"></td>
+                <td><input type="checkbox" name="1.1-NsNc"></td>
+                </tr>
+                
+            <tr>
+                <td>1.2 Tengo una fuerte motivación para aprender por mi mismo/a y de forma autodidacta</td>
+                <td><input type="checkbox" name="1.2-Si"></td>
+                <td><input type="checkbox" name="1.2-No"></td>
+                <td><input type="checkbox" name="1.2-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.3 Dispongo de ordenador propio</td>
+                <td><input type="checkbox" name="1.3-Si"></td>
+                <td><input type="checkbox" name="1.3-No"></td>
+                <td><input type="checkbox" name="1.3-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.4 Tengo conexión a internet en mi hogar</td>
+                <td><input type="checkbox" name="1.4-Si"></td>
+                <td><input type="checkbox" name="1.4-No"></td>
+                <td><input type="checkbox" name="1.4-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.5 Tengo correo electrónico y sé utilizarlo</td>
+                <td><input type="checkbox" name="1.5-Si"></td>
+                <td><input type="checkbox" name="1.5-No"></td>
+                <td><input type="checkbox" name="1.5-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.6 Sé hacer búsquedas de información en internet</td>
+                <td><input type="checkbox" name="1.6-Si"></td>
+                <td><input type="checkbox" name="1.6-Si"></td>
+                <td><input type="checkbox" name="1.6-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.7 Tengo algún conocimiento previo sobre programación</td>
+                <td><input type="checkbox" name="1.7-Si"></td>
+                <td><input type="checkbox" name="1.7-No"></td>
+                <td><input type="checkbox" name="1.7-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.8 Sé hacer gestiones a través de internet (operaciones bancarias, solicitar documentos, pedir citas electrónicas, etc.)</td>
+                <td><input type="checkbox" name="1.8-Si"></td>
+                <td><input type="checkbox" name="1.8-No"></td>
+                <td><input type="checkbox" name="1.8-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.9 Puedo realizar videollamadas</td>
+                <td><input type="checkbox" name="1.9-Si"></td>
+                <td><input type="checkbox" name="1.9-No"></td>
+                <td><input type="checkbox" name="1.9-NsNc"></td>
+            </tr>
+            <tr>
+                <td>1.10 Sé elaborar mi propio contenido en internet (postear en blogs, redes sociales, páginas web...)</td>
+                <td><input type="checkbox" name="1.10-Si"></td>
+                <td><input type="checkbox" name="1.10-No"></td>
+                <td><input type="checkbox" name="1.10-NsNc"></td>
+            </tr>
+        </table>
+        <button type="submit">Send</button>    
+    </form>
+    </div>
+
+    
+</body>
+<script src="./app.js"></script>
+</html>
+        
+        

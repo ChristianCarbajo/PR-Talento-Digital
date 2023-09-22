@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+.container img{
+   margin-top: 1vh;
+   margin-left: 1vh;
+   width: 99.5vw;
+   height: 75vh;
+}
+img{
+   margin-bottom: -5.8vh;
+}
+.container h1{
+   background: #ff4700;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   padding: 7vh;
+}
+h1{
+   display: flex;
+   justify-content: center;
+   margin-top: 5vh;
+   font-family: 'FiraCode-Regular';
+}
+.city{
+   margin-left: 5vh;
+   margin-top: 2vh;   
+}
+h2{
+   margin-top: 10vh;
+   margin-left: 5vh;
+   font-family: 
+}
+h3{
+   margin-top: 2vh;
+   
+   
+}
+p{
+   margin-top: 4vh;   
+}
+
+
+

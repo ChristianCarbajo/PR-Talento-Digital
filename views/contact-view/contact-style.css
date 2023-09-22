@@ -2,43 +2,96 @@
     padding: 0;
     margin: 0; 
 }
-.container img{
-   margin-top: 1vh;
-   margin-left: 1vh;
-   width: 99.5vw;
-   height: 75vh;
+
+:root{
+   --primaryOrange: #ff4700;
+   --primaryBlack: #020100;
+   --white:  #ffffff;
+   --compGrey: #9C9C9C;
+   --compCoral: #FFA37F;
 }
-img{
-   margin-bottom: -5.8vh;
+
+@font-face {
+   font-family: 'FiraCode-Light';
+   src: url('../../fonts/FiraCode-Light.ttf');
 }
+
+@font-face{
+   font-family: 'FiraCode-Regular';
+   src: url('../../fonts/FiraCode-Regular.ttf');
+}
+
+@font-face{
+   font-family: 'Poppins.Bold';
+   src: url('../../fonts/Poppins-Bold.ttf');
+}
+
+@font-face{
+   font-family: 'Poppins.Light';
+   src: url('../../fonts/Poppins-Light.ttf');
+}
+@font-face{
+   font-family: 'Poppins.Medium';
+   src: url('../../fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+   font-family: 'Rubik-Bold';
+   src: url('../../fonts/Rubik-Bold.ttf');
+}
+
+@font-face{
+   font-family: 'Rubik-Medium';
+   src: url('../../fonts/Rubik-Medium.ttf');
+}
+
+.img-container{
+width: 50%;
+height: 50%;
+}
+
 .container h1{
    background: #ff4700;
    color: rgb(255, 255, 255);
    font-weight: bold;
    padding: 7vh;
+   
 }
+
 h1{
    display: flex;
    justify-content: center;
-   margin-top: 5vh;
-   font-family: 'FiraCode-Regular';
+   margin-top: 0rem;
+   margin-bottom: 7rem;
+   font-family: 'Poppins.Medium';
+   font-size: xx-large;
 }
-.city{
-   margin-left: 5vh;
-   margin-top: 2vh;   
-}
+
+
 h2{
-   margin-top: 10vh;
-   margin-left: 5vh;
-   font-family: 
+   display: flex;
+   justify-content: center;
+   margin-top: 4rem;
+   font-family: 'Poppins.Medium';
+   font-size: xx-large;
 }
-h3{
-   margin-top: 2vh;
-   
-   
+
+
+.city{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 4rem;
 }
-p{
-   margin-top: 4vh;   
+
+.imglangreo img {
+   width: 32rem;
+   height: 19rem;
+   font-family: 'Poppins.Medium';
+}
+
+.textoubicacion{
+   width: 32rem;
+   height: 19rem;
 }
 
 

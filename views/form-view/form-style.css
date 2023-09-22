@@ -3,23 +3,26 @@
     margin-left: 15vh;
     margin-right: 15vh;
 }
+
 .margin {
     padding-top: 5vh;
     margin-left: 12vh;
     margin-right: 5vh;
     margin-bottom: 5vh;
 }
+
 legend {
     font-family: 'Poppins.Light';
-    src: url('../fonts/Poppins-Light.ttf');
     margin-left: 0vh;
 }
+
 .email {
     width: 52vh;
 }
+
 .checkbox[type=checkbox] {
     margin-left: 2vh;
-transform: scale(1.5);   
+    transform: scale(1.5);
 }
 
 .form-nameboxText {
@@ -28,6 +31,20 @@ transform: scale(1.5);
     padding-left: 3vh;
     padding-right: 2vh;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4700;
+}
+
+/* .textbox-div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+} */
+
 .form-emailboxText {
     font-family: 'Poppins.Medium';
     src: url('../fonts/Poppins-Medium.ttf');
@@ -100,6 +117,7 @@ transform: scale(1.5);
     display: flex;
     margin-left: 12vh;
 }
+
 .textAnswer {
     width: 42vh;
     height: 40vh;
@@ -110,3 +128,34 @@ transform: scale(1.5);
     border-color: var(--compGrey);
     border-width: 1px;
 }
+
+table {
+    background-color: white;
+    border: #FF4700;
+    display: flexbox;
+    margin: 1vh;
+    border-color: #FF4700;
+}
+
+.table-header {
+    font-family: 'Poppins.Medium';
+    text-align: center;
+    background-color: var(--compCoral);
+}
+
+td {
+    font-family: 'Poppins.Light';
+    font-size: 10pt;
+    padding-left: 3vh;
+}
+
+td,th {
+    border: #FF4700 1px solid;
+    padding: 0vh;
+}
+
+/* input[type="checkbox"] {
+    display: block;
+    margin: 0 auto;
+
+} */

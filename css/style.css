@@ -11,10 +11,6 @@ p{
     font-size: 2rem;
 }
 
-
-
-
-
 @font-face {
     font-family: 'FiraCode-Light';
     src: url('../fonts/FiraCode-Light.ttf');
@@ -217,10 +213,9 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: var(--primaryOrange); /* Color de fondo del footer (cambia según tus preferencias) */
-    padding: 20px;
+    background-color: var(--primaryOrange); 
     text-align: center;
-    color: #fff; /* Color del texto (cambia según tus preferencias) */
+    color: var(--white); 
 }
 
 footer h3{
@@ -231,33 +226,30 @@ footer a {
     font-family: 'FiraCode-Regular';
 }
 
-/* Estilos para el logotipo en el footer */
 .footer-logo {
     display: block;
-    margin: 0 auto; /* Esto centrará horizontalmente el logotipo */
-    max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; 
+    max-width: 200px; 
 }
 
-/* Estilos para los enlaces y otros elementos del footer */
 .links-footer {
     margin-top: 20px;
 }
 
 .links-footer p,
 .links-footer a {
-    color: #fff; /* Color del texto (cambia según tus preferencias) */
+    color: #fff; 
     text-decoration: none;
     margin: 0 10px;
     font-size: 14px;
 }
 
-/* Estilos para los iconos sociales */
 .social-footer {
     margin-top: 20px;
 }
 
 .social-footer img {
-    width: 30px; /* Tamaño de los iconos sociales (ajusta según tus necesidades) */
+    width: 30px; 
     margin: 0 10px;
 }
 

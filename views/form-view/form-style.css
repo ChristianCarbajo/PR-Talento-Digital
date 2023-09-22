@@ -1,0 +1,106 @@
+.form-nameboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.form-emailboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+.form-fechaboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+legend {
+    font-family: 'Poppins.Light';
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+.margin {
+    margin-left: 30vh;
+    margin-right: 32vh;
+}
+
+.datos-fieldset {
+    padding-top: 3vh;
+    padding-left: 0vh;
+    padding-bottom: 5vh;
+    width: 160vh;
+    display: flex;
+    background-color: var(--compCoral);
+}
+
+.boxSend {
+    width: 157vh;
+    padding: 2vh;
+    margin-left: 30vh;
+    text-align: center;
+    background-color: var(--compCoral);
+}
+
+.textSend {
+    font-family: 'Poppins.Medium';
+    text-align: center;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--compGrey);
+    border-width: 1px;
+    background-color: var(--white);
+}
+
+.title412 {
+    font-family: 'Poppins.Medium';
+    text-align: center;
+    background-color: var(--primaryOrange);
+}
+
+.secondTitle412 {
+    font-family: 'Poppins.Medium';
+    text-align: center;
+    background-color: var(--compCoral);
+}
+
+.thirdTitle412 {
+    font-family: 'Poppins.Light';
+    text-align: center;
+    background-color: var(--white);
+    border-style: solid;
+    border-color: var(--compGrey);
+    border-width: 1px;
+}
+
+.boxAnswer {
+    width: 40vh;
+    font-family: 'Poppins.Medium';
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: var(--compGrey);
+    border-width: 1px;
+}
+
+.containerAnswer {
+    display: flex;
+    padding-left: 30vh;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.textAnswer {
+    width: 40vh;
+    height: 30vh;
+    font-family: 'Poppins.Light';
+    font-size: 10pt;
+    text-align: center;
+    border-style: solid;
+    border-color: var(--compGrey);
+    border-width: 1px;
+}

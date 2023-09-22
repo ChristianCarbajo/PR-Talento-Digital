@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="./form-style.css">
+</head>
+<body>
+    <form class="form" onsubmit="enviarFormulario()" method="post">
+       <div> 
+        <fieldset class="datos-fieldset">
+            <legend>Datos Personales</legend>
+            <p class="form-nameboxText">Nombre y Apellidos</p>
+            <input type="text" name="name" required>
+            <p class="form-emailboxText">E-mail</p>
+            <input type="email" id="emailInput" required>
+            <p class="form-fechaboxText">Fecha de Nacimiento</p>
+            <input type="date" id="fechaInput" required>
+        </fieldset>
+
+            
+        <button type="submit">Send</button>
+        </div>    
+    </form>
+</body>
+<script src="./app.js"></script>
+</html>

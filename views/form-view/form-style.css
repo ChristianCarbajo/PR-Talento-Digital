@@ -1,43 +1,53 @@
-.form-nameboxText {
-    font-family: 'Poppins.Medium';
-    src: url('../fonts/Poppins-Medium.ttf');
-    padding-left: 5vh;
-    padding-right: 5vh;
+.fondo {
+    background-color: bisque;
+    margin-left: 15vh;
+    margin-right: 15vh;
 }
-
-.form-emailboxText {
-    font-family: 'Poppins.Medium';
-    src: url('../fonts/Poppins-Medium.ttf');
+.margin {
+    padding-top: 5vh;
+    margin-left: 12vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
 }
-
-.form-fechaboxText {
-    font-family: 'Poppins.Medium';
-    src: url('../fonts/Poppins-Medium.ttf');
-}
-
 legend {
     font-family: 'Poppins.Light';
     src: url('../fonts/Poppins-Light.ttf');
+    margin-left: 0vh;
+}
+.email {
+    width: 52vh;
+}
+.checkbox[type=checkbox] {
+    margin-left: 2vh;
+transform: scale(1.5);   
 }
 
-.margin {
-    margin-left: 30vh;
-    margin-right: 32vh;
+.form-nameboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    padding-left: 3vh;
+    padding-right: 2vh;
+}
+.form-emailboxText {
+    font-family: 'Poppins.Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+    padding-left: 3vh;
+    padding-right: 2vh;
 }
 
 .datos-fieldset {
     padding-top: 3vh;
-    padding-left: 0vh;
+    padding-left: 5vh;
     padding-bottom: 5vh;
-    width: 160vh;
+    width: 164vh;
     display: flex;
     background-color: var(--compCoral);
 }
 
 .boxSend {
-    width: 157vh;
+    width: 165vh;
     padding: 2vh;
-    margin-left: 30vh;
+    margin-left: 12vh;
     text-align: center;
     background-color: var(--compCoral);
 }
@@ -76,9 +86,10 @@ legend {
 }
 
 .boxAnswer {
-    width: 40vh;
+    width: 42vh;
     font-family: 'Poppins.Medium';
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color: white;
     border-style: solid;
     border-color: var(--compGrey);
@@ -87,16 +98,11 @@ legend {
 
 .containerAnswer {
     display: flex;
-    padding-left: 30vh;
+    margin-left: 12vh;
 }
-
-input[type=checkbox] {
-    transform: scale(1.5);
-}
-
 .textAnswer {
-    width: 40vh;
-    height: 30vh;
+    width: 42vh;
+    height: 40vh;
     font-family: 'Poppins.Light';
     font-size: 10pt;
     text-align: center;

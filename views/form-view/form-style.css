@@ -53,12 +53,13 @@
     color:white;
 }
 table {
-    display:flexbox;
+    width:80%;
     margin: 0 auto;
     background-color: white;
     border-style: groove;
     border-color: #FF4700;
-    border-spacing: 0;
+    
+    border-collapse: collapse;
 }
 .table-header {
     font-family: 'FiraCode-Regular';

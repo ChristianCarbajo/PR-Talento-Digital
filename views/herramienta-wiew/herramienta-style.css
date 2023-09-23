@@ -134,6 +134,25 @@ nav ul li a:hover {
     color: var(--primaryOrange);
     font-weight: bold;
 }
+.container-index-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 3rem;
+    margin-bottom: 3rem; 
+    padding: 4rem;
+    flex-direction: row-reverse; 
+    background-color: var(--primaryOrange);
+}
+
+.tex-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white)
+}
+
 
 .container-index {
   display: flex;
@@ -178,7 +197,6 @@ nav ul li a:hover {
     height: auto; 
     border: 4px solid var(--primaryBlack);
 }
-
 .container-index-right img {
     width: 90%; 
     max-width: 100%;
@@ -254,10 +272,9 @@ footer a {
         right: 10px;
     }
 
-    .container-title {
+    .header-logo {
         text-align: center;
-        color: var(--white);
-        background-color: var(--primaryOrange);
+        color: var(--primaryOrange);
         font-family: Helvetica;
         z-index: 2;
         top: auto;

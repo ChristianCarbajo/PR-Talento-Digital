@@ -14,7 +14,34 @@
     src: url('../fonts/Poppins-Medium.ttf');
     color: white;
 }
-.form-emailboxText {
+.namebox-input {
+    width: 20vw;
+    height: 3vh;
+    outline: none;
+    border-radius: 12px;
+}
+.namebox-input:focus {
+    outline: 2px groove #FFA37F;
+}
+.emailbox-input {
+    width: 20vw;
+    height: 3vh;
+    outline: none;
+    border-radius: 12px;
+}
+.emailbox-input:focus {
+    outline: 2px groove #FFA37F;
+}
+.datebox-input {
+    width: 8vw;
+    height: 3vh;
+    outline: none;
+    border-radius: 12px;
+}
+.datebox-input:focus {
+    outline: 2px groove #FFA37F;
+}
+.form-emailboxText { 
     font-family: 'Poppins.Medium';
     src: url('../fonts/Poppins-Medium.ttf');
     color:white;
@@ -26,11 +53,12 @@
     color:white;
 }
 table {
-    background-color: white;
-    border: #FF4700;
     display:flexbox;
     margin: 0 auto;
+    background-color: white;
+    border-style: groove;
     border-color: #FF4700;
+    border-spacing: 0;
 }
 .table-header {
     font-family: 'FiraCode-Regular';

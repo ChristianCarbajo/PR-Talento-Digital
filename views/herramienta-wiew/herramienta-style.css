@@ -206,7 +206,7 @@ nav ul li a:hover {
     max-width: 100%; 
     height: auto; 
     border: 4px solid var(--primaryBlack);
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .container-index-right img {
@@ -214,6 +214,7 @@ nav ul li a:hover {
     max-width: 100%;
     height: auto; 
     border: 4px solid var(--white);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .button {

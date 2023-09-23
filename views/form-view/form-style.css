@@ -46,32 +46,192 @@
     src: url('../../fonts/Rubik-Medium.ttf');
 }
 
-legend {
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 10px;
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background: var(--white);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
-/* Style the labels and radio buttons */
+nav .logo p {
+    padding: 20px 20px;
+    height: auto;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primaryOrange);
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-family: Rubik-Medium;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    color: var(--primaryOrange);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: var(--primaryOrange);
+    border-radius: 16px;
+    color: var(--white);
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primaryOrange);
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+
+.logo img{
+    max-width: 200px; 
+}
+
+.header-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--primaryOrange);
+    font-family: Rubik-Medium;
+    z-index: 2;
+    
+}
+
+.card-data-user{
+    margin-top: 1rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+}
+
+.tittle-form{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    color: var(--primaryOrange)
+}
+legend {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color:var(--primaryOrange)
+
+
+}
+
+fieldset{
+    margin: 6rem;
+
+}
+
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Poppins.Bold';
+    color: var(--primaryOrange)
 }
 
 input[type="radio"] {
-    margin-right: 5px;
+    margin-right: 20px;
     margin-left: 10px;
+    font-weight: bold;
+    
 }
 
-/* Style the spans next to the radio buttons */
 span.text-form {
     font-weight: normal;
 }
 
-/* Add some spacing between questions */
 br {
     margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--primaryOrange); 
+    text-align: center;
+    color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer h3{
+    font-family:'Poppins.Bold';
+}
+
+footer a {
+    font-family: 'FiraCode-Regular';
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 auto; 
+    max-width: 8rem; 
+}
+
+.links-footer {
+    margin-top: 20px;
+}
+
+.links-footer p,
+.links-footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.social-footer {
+    margin-top: 20px;
+}
+
+.social-footer img {
+    width: 30px; 
+    margin: 0 10px;
 }
 
 
@@ -82,7 +242,76 @@ br {
         flex-direction: column;
         align-items: center;
     }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        justify-content: center;
+        align-items: flex-end;
+        margin-right: 20px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
 
+    .header-logo {
+        text-align: center;
+        color: var(--primaryOrange);
+        font-family: Helvetica;
+        z-index: 2;
+        top: auto;
+        left: auto;
+        transform: none; 
+        margin-top: 20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: var(--primaryOrange);
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .logo-hidden {
+        display: none;
+    }
+
+    nav.open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--primaryOrange);
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.open ul {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
 
 
 

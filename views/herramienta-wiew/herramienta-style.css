@@ -47,6 +47,7 @@
     margin: 0;
 }
 
+
 nav {
     position: absolute;
     top: 0;
@@ -135,22 +136,28 @@ nav ul li a:hover {
     font-weight: bold;
 }
 .container-index-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    margin-top: 3rem;
-    margin-bottom: 3rem; 
-    padding: 4rem;
-    flex-direction: row-reverse; 
+    text-align: center;
+    line-height: 2.5em;
+    margin-top: 6.5rem;   
+    padding: 3.5rem;
     background-color: var(--primaryOrange);
 }
 
-.tex-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--white)
+.talento {
+    color: var(--white);
+    animation: gradientAnimation 5s infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        color: var(--white); 
+    }
+    50% {
+        color: var(--compCoral); 
+    }
+    100% {
+        color: var(--white); 
+    }
 }
 
 

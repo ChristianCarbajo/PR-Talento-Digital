@@ -47,60 +47,6 @@
     margin: 0;
 }
 
-:root{
-    --primaryOrange: #ff4700;
-    --primaryBlack: #020100;
-    --white:  #ffffff;
-    --compGrey: #9C9C9C;
-    --compCoral: #FFA37F;
-}
-
-p{
-    font-family: 'FiraCode-Regular';
-    font-size: 2rem;
-}
-
-@font-face {
-    font-family: 'FiraCode-Light';
-    src: url('../fonts/FiraCode-Light.ttf');
-}
-
-@font-face{
-    font-family: 'FiraCode-Regular';
-    src: url('../fonts/FiraCode-Regular.ttf');
-}
-
-@font-face{
-    font-family: 'Poppins.Bold';
-    src: url('../fonts/Poppins-Bold.ttf');
-}
-
-@font-face{
-    font-family: 'Poppins.Light';
-    src: url('../fonts/Poppins-Light.ttf');
-}
-@font-face{
-    font-family: 'Poppins.Medium';
-    src: url('../fonts/Poppins-Medium.ttf');
-}
-
-@font-face{
-    font-family: 'Rubik-Bold';
-    src: url('../fonts/Rubik-Bold.ttf');
-}
-
-@font-face{
-    font-family: 'Rubik-Medium';
-    src: url('../fonts/Rubik-Medium.ttf');
-}
-
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
 nav {
     position: absolute;
     top: 0;
@@ -174,30 +120,9 @@ nav ul li a:hover {
     transition: 0.4s;
 }
 
-.video-section {
-    position: relative;
-}
-
-.video-prin {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
 
 .logo img{
     max-width: 200px; 
-}
-
-.header-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: var(--primaryOrange);
-    font-family: Rubik-Medium;
-    z-index: 2;
-    
 }
 
 .header-logo h1,
@@ -208,7 +133,6 @@ nav ul li a:hover {
     padding: 1rem;
     color: var(--primaryOrange);
     font-weight: bold;
-
 }
 
 .container-index {
@@ -254,6 +178,7 @@ nav ul li a:hover {
     height: auto; 
     border: 4px solid var(--primaryBlack);
 }
+
 .container-index-right img {
     width: 90%; 
     max-width: 100%;
@@ -329,9 +254,10 @@ footer a {
         right: 10px;
     }
 
-    .header-logo {
+    .container-title {
         text-align: center;
-        color: var(--primaryOrange);
+        color: var(--white);
+        background-color: var(--primaryOrange);
         font-family: Helvetica;
         z-index: 2;
         top: auto;
@@ -410,5 +336,8 @@ footer a {
     }
     
 }
+
+
+
 
 

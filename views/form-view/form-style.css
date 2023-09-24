@@ -11,6 +11,8 @@
     padding: 0;
 }
 
+
+
 @font-face {
     font-family: 'FiraCode-Light';
     src: url('../../fonts/FiraCode-Light.ttf');
@@ -156,16 +158,25 @@ nav ul li a:hover {
 legend {
     font-weight: bold;
     font-size: 2rem;
+    font-family: 'Poppins.Bold';
     margin-bottom: 10px;
     text-align: center;
     color:var(--primaryOrange)
 
 
 }
+.tittle-form h1{
+    font-family: 'Poppins.Bold';
+    text-transform: uppercase;    
+}
 
 fieldset{
     margin: 6rem;
 
+}
+
+.text-form{
+    font-family: 'FiraCode-Regular';
 }
 
 label {

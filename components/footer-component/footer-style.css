@@ -1,0 +1,92 @@
+:root {
+    --primaryOrange: #ff4700;
+    --primaryBlack: #020100;
+    --white: #ffffff;
+    --compGrey: #9C9C9C;
+    --compCoral: #FFA37F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: 'FiraCode-Light';
+    src: url('../../fonts/FiraCode-Light.ttf');
+}
+
+@font-face {
+    font-family: 'FiraCode-Regular';
+    src: url('../../fonts/FiraCode-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins.Bold';
+    src: url('../../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins.Light';
+    src: url('../../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins.Medium';
+    src: url('../../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../../fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('../../fonts/Rubik-Medium.ttf');
+}
+
+footer {
+    background-color: var(--primaryOrange); 
+    text-align: center;
+    color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer h3{
+    font-family:'Poppins.Bold';
+}
+
+footer a {
+    font-family: 'FiraCode-Regular';
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 auto; 
+    max-width: 8rem; 
+}
+
+.links-footer {
+    margin-top: 20px;
+}
+
+.links-footer p,
+.links-footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.social-footer {
+    margin-top: 20px;
+}
+
+.social-footer img {
+    width: 30px; 
+    margin: 0 10px;
+}

@@ -19,13 +19,30 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// FUNCIÓN DEL CORRE
-document.addEventListener("DOMContentLoaded", function () {
-    const cardContainers = document.querySelectorAll(".card-container");
+// FUNCIÓN DEL CORREO
 
-    cardContainers.forEach(function (container, index) {
-        setTimeout(function () {
-            container.classList.add("visible");
-        }, index * 300);
-    });
-});
+function saveEmail() {
+    // Obtener el valor del campo de entrada de correo electrónico
+    const emailInput = document.getElementById("email");
+    const email = emailInput.value;
+
+    // Actualizar la acción del formulario con el correo electrónico
+    const form = document.getElementById("myForm");
+    form.action = `https://formsubmit.co/${email}`;
+
+    // Enviar el formulario
+    form.submit();
+}
+
+function sendForm() {
+    // Obtener el valor del campo de entrada de correo electrónico
+    const emailInput = document.getElementById("email");
+    const email = emailInput.value;
+
+    // Actualizar la acción del formulario con el correo electrónico
+    const form = document.getElementById("myForm2");
+    form.action = `https://formsubmit.co/${email}`;
+
+    // Enviar el formulario
+    form.submit();
+}

@@ -147,6 +147,16 @@ nav ul li a:hover {
     flex-direction: column;
     margin-bottom: 3rem;
 
+
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 1rem;
+  border: 3px solid var(--primaryOrange);
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .tittle-form{
@@ -161,22 +171,37 @@ legend {
     font-family: 'Poppins.Bold';
     margin-bottom: 10px;
     text-align: center;
-    color:var(--primaryOrange)
+    color:var(--primaryOrange);
+
+}
+
+fieldset{
+    margin: 5rem;
+    padding: 4rem;
+    border-radius: 20px;
+    border: 4px solid var(--primaryOrange);
 
 
 }
+
+
 .tittle-form h1{
     font-family: 'Poppins.Bold';
     text-transform: uppercase;    
 }
 
-fieldset{
-    margin: 6rem;
+.instructions h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Poppins.Bold';
 
 }
 
+
 .text-form{
     font-family: 'FiraCode-Regular';
+    font-size: 1.5rem;
 }
 
 label {
@@ -184,7 +209,8 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Poppins.Bold';
-    color: var(--primaryOrange)
+    color: var(--primaryOrange);
+    font-size: 1.5rem
 }
 
 input[type="radio"] {
@@ -287,12 +313,22 @@ footer a {
 
 
 
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 1rem; 
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+
+
 @media (max-width: 768px) {
 
     fieldset {
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
     .menu-toggle {
         display: flex;
@@ -316,6 +352,7 @@ footer a {
         transform: none; 
         margin-top: 20px;
     }
+
 
     .logo {
         text-align: center;
@@ -365,6 +402,27 @@ footer a {
         font-size: 18px;
     }
 
+    .text-form {
+        display: block;
+        text-align: center; 
+        margin-bottom: 10px; 
+      }
+      label {
+        display: block; 
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+      input[type="radio"] {
+        margin-top: 5px;
+        margin-right: 1rem; 
+        width: 2rem;
+        height: 2rem;
+      }
 
+      legend {
+        font-size: 1.3rem;
 
+      }
 }
+
+

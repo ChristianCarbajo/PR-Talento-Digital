@@ -22,27 +22,19 @@ document.addEventListener('DOMContentLoaded', function () {
 // FUNCIÓN DEL CORREO
 
 function saveEmail() {
-    // Obtener el valor del campo de entrada de correo electrónico
     const emailInput = document.getElementById("email");
     const email = emailInput.value;
 
-    // Actualizar la acción del formulario con el correo electrónico
     const form = document.getElementById("myForm");
     form.action = `https://formsubmit.co/${email}`;
 
-    // Enviar el formulario
-    form.submit();
 }
 
 function sendForm() {
-    // Obtener el valor del campo de entrada de correo electrónico
+
     const emailInput = document.getElementById("email");
     const email = emailInput.value;
-
-    // Actualizar la acción del formulario con el correo electrónico
     const form = document.getElementById("myForm2");
     form.action = `https://formsubmit.co/${email}`;
 
-    // Enviar el formulario
-    form.submit();
 }

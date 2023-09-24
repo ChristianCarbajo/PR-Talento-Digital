@@ -85,7 +85,7 @@ body {
 }
 
 .main-right-text {
-    margin-top: 23%;
+    margin-top: 24%;
     margin-right: 13%;
     margin-left: 3%;
     font-family: 'Poppins.Light';
@@ -97,7 +97,7 @@ body {
     height: 27px;
     vertical-align: middle;
     margin-bottom: 1.1%;
-    margin-left: 1.2%;
+    margin-left: 1.4%;
     animation-name: vueltas;
     animation-duration: 9s;
     animation-iteration-count: infinite;
@@ -145,7 +145,7 @@ body {
     vertical-align: baseline;
     width: auto;
     margin-left: 30%;
-    margin-top: 14%;
+    margin-top: 13%;
   }
 
   .btn:hover,
@@ -170,7 +170,7 @@ body {
   
     .main-right {
       height: auto; 
-      margin-top: 20px;
+      
       margin-right: 5%;
       margin-left: 5%;
     }

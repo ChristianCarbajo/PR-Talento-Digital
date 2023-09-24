@@ -1,9 +1,9 @@
+//Ocolutar icono y texto header en responsive
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const logo = document.querySelector('.logo');
 const headerLogo = document.querySelector('.header-logo');
 
-// Abre el menú desplegable y oculta el logo y la clase .header-logo
 menuToggle.addEventListener('click', () => {
     nav.classList.toggle('open');
     logo.classList.toggle('logo-hidden');
@@ -11,6 +11,13 @@ menuToggle.addEventListener('click', () => {
 });
 
 
+//Animación colaboladores
+document.addEventListener('DOMContentLoaded', function () {
+    const containerIndexes = document.querySelectorAll('.container-index');
+    containerIndexes.forEach(function (container) {
+        container.classList.add('visible');
+    });
+});
 
 // FUNCIÓN DEL CORRE
 document.addEventListener("DOMContentLoaded", function () {

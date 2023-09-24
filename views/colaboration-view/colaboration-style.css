@@ -64,7 +64,7 @@ nav {
     width: 100%;
     height: auto;
     padding: 10px 0;
-    background: var();
+    background: var(--white);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -97,13 +97,13 @@ nav ul li {
     font-size: 2rem;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--primaryOrange);
+    padding: 12px 30px;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    font-family: 'Poppins.Bold';
-    font-weight: bold;
+    font-family: 'Rubik-Medium';
     text-transform: uppercase;
 }
 
@@ -112,7 +112,6 @@ nav ul li a:hover {
     border-radius: 16px;
     color: var(--white);
     transition: background 0.3s ease-in-out;
-   
 }
 
 .menu-toggle {
@@ -135,7 +134,6 @@ nav ul li a:hover {
 .logo img{
     max-width: 200px; 
 }
-
 .header-logo {
     position: absolute;
     top: 50%;
@@ -192,28 +190,55 @@ nav ul li a:hover {
 
 }
 
-.card ul a:hover {
-    color: var(--primaryBlack); 
+
+.container-index {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2.5s ease-in-out;
+    opacity: 0; 
 }
 
-@keyframes bounceIn {
-    0% {
-      transform: scale(0.5);
-      opacity: 0;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
     }
-    50% {
-      transform: scale(1.2);
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-  
-  /* Aplicar animación de rebote a las tarjetas al cargar la página */
-  .card {
-    animation: bounceIn 1.5s ease-in-out;
-  }
+}
+
+.container-index.visible {
+    opacity: 1; 
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-index {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
 
 .card-container.visible {
@@ -229,7 +254,6 @@ nav ul li a:hover {
  .card ul img{
     width: 12rem;
 }
-
 
 .card {
     border: 1px solid #ccc;
@@ -283,15 +307,15 @@ section{
 .card-group {
 
     display: flex;
-    justify-content: space-between; /* Distribuye los grupos de tarjetas horizontalmente */
-    flex-wrap: wrap; /* Permite que los grupos de tarjetas se envuelvan en filas */
-    margin: 0 -10px; /* Agrega un margen negativo para corregir el espacio entre los grupos */
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    margin: 0 -10px; 
 }
 
 .container-index {
     flex: 1;
-    max-width: calc(33.333% - 20px); /* Calcula el ancho máximo de cada tarjeta (33.333% de ancho con margen de 10px a cada lado) */
-    margin: 10px; /* Agrega un margen a cada tarjeta */
+    max-width: calc(33.333% - 20px);
+    margin: 10px;
 }
 
 
@@ -412,13 +436,13 @@ footer a {
     }
 
     .card-group {
-        flex-direction: column; /* Cambiar la dirección de la flexión a columna */
-        margin: 0; /* Eliminar el margen negativo */
+        flex-direction: column;
+        margin: 0; 
     }
 
     .container-index {
-        max-width: 100%; /* Ancho máximo del 100% para ocupar toda la pantalla */
-        margin: 10px 0; /* Agregar margen superior e inferior */
+        max-width: 100%; 
+        margin: 10px 0; 
     }
 }
 

@@ -161,7 +161,6 @@ nav ul li a:hover {
     }
 }
 
-
 .container-index {
   display: flex;
   justify-content: space-between;
@@ -212,9 +211,6 @@ nav ul li a:hover {
 .zoom-container:hover img {
     transform: scale(1.6);
 }
-
-
-
 
 .button {
 text-align: center;
@@ -295,6 +291,8 @@ footer a {
     width: 30px; 
     margin: 0 10px;
 }
+
+
 
 @media (max-width: 768px) {
     .video-prin {

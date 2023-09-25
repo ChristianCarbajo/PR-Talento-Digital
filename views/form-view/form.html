@@ -28,21 +28,6 @@
         <h1>Cuestionario sobre Competencias Digitales y Habilidades Personales</h1>
     </div>
     <br>
-    <div class="instructions">
-        <h2>PRIMER PASO:<br>
-            Introduzca su correo y dele a guardar.<br>
-            Le llegara un email a su correo y tendrá que aceptar su confirmación.</h2>
-    </div>
-    <form id="myForm" class="myFrom" action="https://formsubmit.co/" method="POST">
-        <div class="card-data-user">
-            <div class="data-user">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <div class="btn-form">
-                    <button class="btn" onclick="saveEmail()">Guardar</button>
-                </div>
-            </div>
-    </form>
     </div>
     <div class="instructions">
         <h2>SEGUNDO PASO <br>
@@ -53,7 +38,7 @@
     </div>
     <div class="card-data-user">
         <div class="data-user">
-            <form id="myForm2" class="myFrom2" action="https://formsubmit.co/borja.fdz.gaitero@gmail.com" method="POST">
+            <form id="myForm" class="myFrom"  method="POST">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <br>
@@ -779,7 +764,7 @@
         <br>
     </fieldset>
     <div class="btn-form">
-        <button class="btn" onclick="sendForm()">Enviar</button>
+        <button class="btn" onclick="saveEmail()">Enviar</button>
     </div>
     </form>
     <footer>

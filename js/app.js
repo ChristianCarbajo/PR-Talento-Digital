@@ -19,6 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Animación colaboladores
+document.addEventListener('DOMContentLoaded', function () {
+    const containerIndexes = document.querySelectorAll('.container-index');
+    containerIndexes.forEach(function (container) {
+        container.classList.add('visible');
+    });
+});
+
+
 // FUNCIÓN DEL CORREO
 
 function saveEmail() {

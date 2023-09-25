@@ -57,13 +57,20 @@ body {
     align-items:center;   
 }
 
+.main-left {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 80%;   
+}
 
 .zoom-container {
     overflow: hidden;
     border: 3px solid var(--primaryBlack);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-left: 7%;
-    margin-top: 10.5%;
+    margin-left: 9%;
+    margin-top: 14%;
+    margin-right: 3%;
 }
 
 .zoom-container:hover .main-left-boximage {
@@ -78,15 +85,20 @@ body {
 
 .main-right {
     color: var(--white);
+    margin: 0 10px;
 }
 
 .main-right-text {
     text-align: justify;
-    margin-top: 10%;
-    margin-right: 9%;
-    margin-left: 7%;
+    margin-top: 13.5%;
+    margin-right: 13%;
+    margin-left: 5%;
     font-family: 'Poppins.Light';
     font-size: 17px;
+}
+
+.instrucciones {
+    line-height: 3%;
 }
 
 .reloj {
@@ -123,11 +135,10 @@ body {
     font-family: 'Poppins.Light';
     font-size: 15px;
     line-height: 1.25;
-    padding: calc(.875rem - 1px) calc(1rem - 1px);
+    padding: calc(.6rem - 1px) calc(.7rem - 1px);
     transition: all 250ms;
     touch-action: manipulation;
-    margin-top: 5%;
-    margin-left: 31%;
+    margin-left: 32%;
   }
 
   .btn:hover,
@@ -160,3 +171,41 @@ background-color: var(--compCoral);
 box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
+
+
+
+/* Resto del CSS */
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 767px) {
+    .main {
+      flex-direction: column; /* Cambia a disposición de columna en dispositivos pequeños */
+      align-items: center; /* Centra los elementos en dispositivos pequeños */
+    }
+  
+    .main-left {
+      order: 1; /* Cambia el orden para que main-left esté arriba en dispositivos pequeños */
+      margin: 10px 0; /* Ajusta el margen para centrar la imagen */
+      width: 80%; /* Ajusta el ancho de main-left */
+      display: flex;
+      justify-content: center; /* Centra la imagen */
+    }
+  
+    .main-right {
+      order: 2; /* Cambia el orden para que main-right esté abajo en dispositivos pequeños */
+      margin: 0 20px; /* Ajusta el margen izquierdo y derecho para el texto */
+      width: 80%; /* Ajusta el ancho de main-right */
+    }
+  
+    .main-right-text {
+      margin-top: 20px; /* Ajusta el margen superior del texto en dispositivos pequeños */
+    }
+  
+    .btn, .btn2 {
+      width: 80%; /* Ajusta el ancho de los botones en dispositivos pequeños */
+      margin: 10px 0; /* Ajusta el margen en dispositivos pequeños */
+    }
+  }
+  
+  /* Resto del CSS */
+  

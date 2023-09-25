@@ -158,7 +158,7 @@ nav ul li a:hover {
 }
 
 
-.box-cards{
+.box-cards {
     width: 100%;
     background-color: var(--white);
     display: grid;
@@ -168,22 +168,26 @@ nav ul li a:hover {
     align-items: center;
     margin-bottom: 5vh;
 }
+
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.box h1{  
+
+.box h1 {  
     position: relative;
     margin-bottom: 6vh;
     z-index: 1;
-    font-size: 5vw;
+    font-size: 7vw;
     color: var(--primaryOrange);
+
     font-family: 'Rubik-Bold';
     top: -20vh;
 }
-.box img{
+
+.box img {
     position: relative;
     background-color: var(--white);
     opacity: .8;
@@ -194,7 +198,7 @@ nav ul li a:hover {
     top: 17vh;               
 }
 
-.cards{
+.cards {
     width: 20rem;
     height: 18rem;
     background-color: var(--primaryOrange);

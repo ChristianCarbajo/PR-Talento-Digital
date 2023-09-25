@@ -181,6 +181,7 @@ fieldset{
     margin-top: 70px;
     padding-top: 1rem;
     padding-bottom: 50px;
+    padding-left: 1rem;
 }
 
 
@@ -225,6 +226,7 @@ input[type="radio"] {
 
 .justify-text{
     display: flex;
+    width: -1px;
 }
 
 br {

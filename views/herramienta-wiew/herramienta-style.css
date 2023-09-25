@@ -84,7 +84,7 @@ nav ul {
 
 nav ul li {
     margin: 0 10px;
-    font-family: Rubik-Medium;
+    font-family: 'Rubik-Medium';
     font-size: 2rem;
 }
 
@@ -130,7 +130,7 @@ nav ul li a:hover {
 .header-logo h1,
 .header-logo h2 {
     color: var(--primaryOrange);
-    font-family: Rubik-Medium;
+    font-family: 'Rubik-Medium';
     font-size: 3rem;
     padding: 1rem;
     color: var(--primaryOrange);
@@ -139,6 +139,7 @@ nav ul li a:hover {
 
 .container-index-top {
     text-align: center;
+    font-family: 'Rubik-Medium';
     line-height: 2.5em;
     margin-top: 6.5rem;   
     padding: 3.5rem;
@@ -165,6 +166,7 @@ nav ul li a:hover {
 .container-index {
   display: flex;
   justify-content: space-between;
+  font-family: 'Poppins.Light';
   align-items: stretch; 
   margin-bottom: 3rem; 
   padding: 4rem;
@@ -173,6 +175,7 @@ nav ul li a:hover {
 .container-index-right {
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins.Light';
     align-items: stretch;
     margin-top: 3rem;
     margin-bottom: 3rem; 
@@ -180,6 +183,7 @@ nav ul li a:hover {
     flex-direction: row-reverse; 
     background-color: var(--primaryOrange);
 }
+
 
 .image-wrapper {
     transform: scaleX(-1); 
@@ -194,7 +198,10 @@ nav ul li a:hover {
     align-items: center;
     padding: 30px;
     text-align: justify;
+}
 
+.tex-title {
+    font-family: 'Rubik-Medium';
 }
 
 .img-about img {

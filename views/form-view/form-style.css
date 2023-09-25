@@ -147,15 +147,6 @@ nav ul li a:hover {
 
 
 }
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  margin: 1rem;
-  border: 3px solid var(--primaryOrange);
-  border-radius: 5px;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
 
 .tittle-form{
     margin-top: 10rem;
@@ -206,19 +197,23 @@ fieldset{
     margin-bottom: 12px;
 }
 
+p{
+    margin-right: 50px;
+}
+
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     margin-left: 50px;
+
     font-weight: bold;
     font-family: 'Poppins.Bold';
     color: var(--primaryBlack);
     font-size: 1rem
 }
 
-input[type="radio"] {
-    margin-left: 60px;
-}
+
 
 .text-form {
     text-align: justify;
@@ -226,7 +221,7 @@ input[type="radio"] {
 
 .justify-text{
     display: flex;
-    width: -1px;
+  
 }
 
 br {
@@ -317,15 +312,18 @@ footer a {
 }
 
 
-
 input[type="radio"] {
-    margin-top: 5px;
-    margin-right: 1rem; 
-    width: 1rem;
-    height: 1rem;
-  }
+    vertical-align: middle; 
+    margin-right: 20px; 
+    margin-left: 30px;
+}
 
 
+.text-form {
+    display: inline-block; 
+
+
+}
 
 @media (max-width: 768px) {
 
@@ -334,7 +332,46 @@ input[type="radio"] {
         flex-direction: column;
         align-items: center;
 
+   
     }
+
+    input[type="radio"] {
+        margin-top: 5px;
+        margin-right: 1rem; 
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+
+    legend{
+        font-size: 24px;
+    }
+
+    .tittle-form {
+        margin-top: 5rem;
+    }
+
+    .card-data-user {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .large-radio{
+        width: 30px; 
+        height: 310px;
+    }
+  
+
+  
+    label {
+        margin-left: 0;
+    }
+
+    .justify-text {
+        margin-left: 0;
+    }
+
+ 
     .menu-toggle {
         display: flex;
         flex-direction: column;
@@ -357,7 +394,6 @@ input[type="radio"] {
         transform: none; 
         margin-top: 20px;
     }
-
 
     .logo {
         text-align: center;
@@ -407,7 +443,7 @@ input[type="radio"] {
         font-size: 18px;
     }
 
-    .text-form {
+     .text-form {
         display: block;
         text-align: center; 
         margin-bottom: 10px; 
@@ -417,18 +453,12 @@ input[type="radio"] {
         margin-bottom: 1rem;
         font-size: 1.2rem;
       }
-      input[type="radio"] {
-        margin-top: 5px;
-        margin-right: 1rem; 
-        margin-bottom: 20px;
-        width: 2rem;
-        height: 2rem;
-    }
+    
+ } 
 
-      legend {
-        font-size: 0.2rem;
 
-      }
+      
 }
+
 
 

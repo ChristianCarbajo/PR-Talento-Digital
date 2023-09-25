@@ -45,54 +45,80 @@
    src: url('../../fonts/Rubik-Medium.ttf');
 }
 
-.img-container{
-width: 50%;
-height: 50%;
-}
+.container img{
 
+display: flex;
+align-items: center;
+height: 26rem;
+width: 100%;
+opacity: .9;
+
+}
+   
 .container h1{
    background: #ff4700;
    color: rgb(255, 255, 255);
    font-weight: bold;
-   padding: 7vh;
+   padding: 4vh;
    
 }
 
 h1{
    display: flex;
    justify-content: center;
-   margin-top: 0rem;
-   margin-bottom: 7rem;
+   margin-bottom: 5rem;
    font-family: 'Poppins.Medium';
-   font-size: xx-large;
+   font-size: 2.3rem;
 }
 
 
 h2{
    display: flex;
    justify-content: center;
-   margin-top: 4rem;
-   font-family: 'Poppins.Medium';
-   font-size: xx-large;
+   margin-top: 3rem;
+   font-family: 'Poppins.Light';
+   font-size: xxx-large;
 }
-
 
 .city{
    display: flex;
    justify-content: space-around;
    margin-top: 4rem;
+   
 }
 
 .imglangreo img {
    width: 32rem;
    height: 19rem;
    font-family: 'Poppins.Medium';
+   border-radius: 35% 15%;
 }
 
 .textoubicacion{
    width: 32rem;
    height: 19rem;
+   font-family: 'Poppins.Light';
+   font-size: large;
 }
-
+.note{
+   margin-top: 5rem;
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+   font-family: 'Poppins.Light';
+   background: #ff4700;
+   animation-duration: 2s;
+   animation-name: fadeIn;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+   @keyframes fadeIn{
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 4;
+      }
+   
 
 

@@ -255,7 +255,9 @@ margin-bottom: 90px;
 footer {
     background-color: var(--primaryOrange); 
     text-align: center;
-    color: var(--white); 
+    color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer h3{
@@ -269,7 +271,7 @@ footer a {
 .footer-logo {
     display: block;
     margin: 0 auto; 
-    max-width: 200px; 
+    max-width: 8rem; 
 }
 
 .links-footer {
@@ -292,9 +294,12 @@ footer a {
     width: 30px; 
     margin: 0 10px;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> f4758d8ab4f5ff7e283c204ca25b12a0acc83a0e
 @media (max-width: 768px) {
     .video-prin {
         max-width: 100%;

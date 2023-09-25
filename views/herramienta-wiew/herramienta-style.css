@@ -294,26 +294,10 @@ footer a {
     width: 30px; 
     margin: 0 10px;
 }
-<<<<<<< HEAD
 
 
-
-=======
->>>>>>> f4758d8ab4f5ff7e283c204ca25b12a0acc83a0e
 @media (max-width: 768px) {
-    .video-prin {
-        max-width: 100%;
-        height: 100vh;
-    }
-
-    .video-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
+    
 
     .menu-toggle {
         display: flex;

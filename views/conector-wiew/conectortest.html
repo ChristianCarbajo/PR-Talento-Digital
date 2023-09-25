@@ -15,8 +15,8 @@
 
         <div class="main-left">
             <div class="zoom-container">
-            <img src="./Img/fotoamistad5b.jpg" alt="amigos multiculturales" class="main-left-boximage">
-        </div>
+                <img src="./Img/fotoamistad5b.jpg" alt="amigos multiculturales" class="main-left-boximage">
+            </div>
         </div>
 
         <div class="main-right">
@@ -25,8 +25,21 @@
                 <p class="continuar">¡Hacerlo, sólo te llevará 10 minutos!
                     <img src="./Img/reloj de arena.png" alt="emoji reloj de arena" class="reloj">
                 </p>
-                <p class="continuar">Para <b>CONTINUAR</b>, haz click en el botón de abajo y responde al cuestionario
-                    que hemos preparado para ti.
+
+                <p class="">Para <b>CONTINUAR</b>, sigue estas instrucciones:</p>
+                
+                <form id="myForm" class="myFrom" method="POST">
+                    <label for="nombre">1. Introduce tu correo electrónico:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                </form>
+
+                <div class="btn-form">
+                    <p>2. Da al botón </p><button class="btn" onclick="saveEmail()">Enviar</button>
+                </div>
+
+                <p class="continuar"><b>REVISA</b>, tu bandeja de entrada y sigue las instruciones que vienen
+                    en el correo que has recibido
                 </p>
             </div>
             <div>

@@ -84,7 +84,7 @@ body {
 
 .main-right-text {
     text-align: justify;
-    margin-top: 24%;
+    margin-top: 15%;
     margin-right:13%;
     margin-left: 7%;
     font-family: 'Poppins.Light';
@@ -128,17 +128,13 @@ body {
     display: inline-flex;
     font-family: 'Poppins.Light';
     font-size: 15px;
-    font-weight: 500;
-    justify-content: center;
     line-height: 1.25;
-    min-height: 3rem;
     padding: calc(.875rem - 1px) calc(1rem - 1px);
     transition: all 250ms;
     touch-action: manipulation;
-    vertical-align: baseline;
-    width: auto;
-    margin-left: 30%;
-    margin-top: 13%;
+    
+    
+   
   }
 
   .btn:hover,

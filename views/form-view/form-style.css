@@ -20,10 +20,10 @@ legend {
     width: 52vh;
 }
 
-.checkbox[type=checkbox] {
+/* .checkbox[type=checkbox] {
     margin-left: 2vh;
     transform: scale(1.5);
-}
+} */
 
 .form-nameboxText {
     font-family: 'Poppins.Medium';
@@ -38,12 +38,6 @@ legend {
     align-items: center;
     background-color: #FF4700;
 }
-
-/* .textbox-div {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 40%;
-} */
 
 .form-emailboxText {
     font-family: 'Poppins.Medium';
@@ -103,7 +97,7 @@ legend {
 }
 
 .boxAnswer {
-    width: 42vh;
+    width: 40vh;
     font-family: 'Poppins.Medium';
     display: flex;
     justify-content: center;
@@ -146,16 +140,16 @@ table {
 td {
     font-family: 'Poppins.Light';
     font-size: 10pt;
-    padding-left: 3vh;
+    padding: 3vh;
 }
 
 td,th {
     border: #FF4700 1px solid;
-    padding: 0vh;
+    padding: 1vh;
+
 }
 
-/* input[type="checkbox"] {
+input[type="checkbox"] {
     display: block;
     margin: 0 auto;
-
-} */
+} 

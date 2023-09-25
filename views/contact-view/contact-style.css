@@ -191,17 +191,11 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    opacity: 0;
+    opacity: 1;
     transform: translateY(30px);
     transition: opacity 0.5s ease, transform 0.5s ease;
     height: 300px; 
     margin: 20px;
-}
-
-
-.card-container.visible {
-    opacity: 1;
-    transform: translateY(0); 
 }
 
 .card ul li{

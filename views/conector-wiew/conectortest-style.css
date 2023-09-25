@@ -54,16 +54,16 @@ body {
 
 .main {
     display: flex;
-    align-items:center;
-       
+    align-items:center;   
 }
 
-.zoom-container {
 
+.zoom-container {
     overflow: hidden;
     border: 3px solid var(--primaryBlack);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-left: 7%;
+    margin-top: 10.5%;
 }
 
 .zoom-container:hover .main-left-boximage {
@@ -71,21 +71,19 @@ body {
 }
 
 .main-left-boximage {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     transition: transform 0.9s ease; 
- 
 }
 
 .main-right {
-    height: 100vh;
     color: var(--white);
 }
 
 .main-right-text {
     text-align: justify;
-    margin-top: 15%;
-    margin-right:13%;
+    margin-top: 10%;
+    margin-right: 9%;
     margin-left: 7%;
     font-family: 'Poppins.Light';
     font-size: 17px;
@@ -112,10 +110,6 @@ body {
     }
 }
 
-.continuar {
-    margin-top: 3%;
-}
-
 
 .btn {
     background-color: var(--primaryBlack);
@@ -132,9 +126,8 @@ body {
     padding: calc(.875rem - 1px) calc(1rem - 1px);
     transition: all 250ms;
     touch-action: manipulation;
-    
-    
-   
+    margin-top: 5%;
+    margin-left: 31%;
   }
 
   .btn:hover,
@@ -143,40 +136,27 @@ body {
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
+.btn2 {
+    background-color: var(--primaryBlack);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins.Light';
+    font-size: 15px;
+    line-height: 1.25;
+    padding: calc(.25rem - 1px) calc(.5rem - 1px);
 
-
-
-@media (max-width: 767px) {
-    .main {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .main-left-boximage {
-      width: 80%; 
-      margin: auto;
-    }
-  
-    .main-right {
-      height: auto; 
-      
-      margin-right: 5%;
-      margin-left: 5%;
-    }
-  
-    .main-right-text {
-      margin: 20px 0; 
-    }
-  
-    .btn {
-      margin: 10px auto;
-    }
+    transition: all 250ms;
+    touch-action: manipulation;
   }
-  
 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .main {
-      flex-direction: row;
-    }
-  }
-  
+  .btn2:hover,
+  .btn2:focus {
+background-color: var(--compCoral);
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+

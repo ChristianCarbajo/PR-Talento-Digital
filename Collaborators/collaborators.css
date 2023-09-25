@@ -50,13 +50,7 @@
 .prueba{
     font-family: 'Rubik-Poppins.Bold', Helvetica, sans-serif;
 }
-/* .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 header {
     margin-bottom: 5vh;
 }
@@ -162,39 +156,9 @@ nav ul li a:hover {
     padding: 1rem;
     color: var(--primaryOrange);
     font-weight: bold;
-
 }
 
-/* header img {
-    max-width: 16rem;
-    min-width: 16rem;
-    width: auto;
-    margin: 3vh;
-}
-.container-header {
-    width: 100%;
-    margin: 4vh;
-    display: flex;
-    align-items:end;
-    justify-content: space-between;
-}
-.container-header-nav {
-    display: flex;
-    align-items: center;
-}
-.container-header-nav h2:hover {
-    background: var(--primaryOrange);
-    border-radius: 10px;
-    color: var(--white);
-    transition: background 0.3s ease-in-out;
-}
-h2 {
-    color: var(--primaryOrange);
-    margin: 3vh;
-    font-family: Rubik-Medium;
-    text-decoration: none;
-    text-transform: uppercase;
-} */
+
 .box-cards{
     width: 100%;
     background-color: var(--white);
@@ -306,6 +270,9 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
     }
+    .box h1 {
+        margin-bottom: 10vh;
+    }
 }
 @media (max-width: 800px) {
     .box-cards {
@@ -322,7 +289,7 @@ footer a {
         justify-content: center;
         margin: 1vh;
         transition: border 0.2s ease;
-        border: 2px solid var(--primaryBlack);
+        margin-top: 5vh
     }
     header h2 {
         font-size: medium;
@@ -419,19 +386,18 @@ footer a {
     }
 
     .card-group {
-        flex-direction: column; /* Cambiar la dirección de la flexión a columna */
-        margin: 0; /* Eliminar el margen negativo */
+        flex-direction: column; 
+        margin: 0; 
     }
 
     .container-index {
-        max-width: 100%; /* Ancho máximo del 100% para ocupar toda la pantalla */
-        margin: 10px 0; /* Agregar margen superior e inferior */
-    }
+        max-width: 100%; 
+        margin: 10px 0; 
 }
 
 @media (max-width: 500px) {
    .box img {
     margin-bottom: 3vh;
    } 
-   .box h1
+}
 }

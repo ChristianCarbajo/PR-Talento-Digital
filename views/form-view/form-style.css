@@ -178,6 +178,7 @@ fieldset{
     border: 4px solid var(--primaryOrange);
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 70px;
     padding-top: 1rem;
     padding-bottom: 50px;
 }
@@ -198,7 +199,7 @@ fieldset{
 
 
 .text-form{
-    font-family: 'FiraCode-Regular';
+    font-family: 'Poppins.Light';
     font-size: 1rem;
     margin-top: 5px;
     margin-bottom: 12px;
@@ -215,11 +216,15 @@ label {
 }
 
 input[type="radio"] {
-    margin-left: 2rem;
+    margin-left: 60px;
 }
 
-span.text-form {
-    font-weight: normal;
+.text-form {
+    text-align: justify;
+}
+
+.justify-text{
+    display: flex;
 }
 
 br {
@@ -419,7 +424,7 @@ input[type="radio"] {
       }
 
       legend {
-        font-size: 1.3rem;
+        font-size: 0.2rem;
 
       }
 }

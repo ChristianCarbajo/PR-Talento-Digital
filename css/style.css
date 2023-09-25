@@ -7,7 +7,7 @@
 }
 
 .text-about p{
-    font-family: 'Rubik-Medium';
+    font-family: 'Poppins.Light';
     font-size: 1rem;
 }
 
@@ -194,6 +194,7 @@ nav ul li a:hover {
 .image-wrapper {
     transform: scaleX(-1); 
 }
+
 .text-about,
 .img-about {
     flex: 1;

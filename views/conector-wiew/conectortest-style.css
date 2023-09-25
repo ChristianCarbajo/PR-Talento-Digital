@@ -69,7 +69,7 @@ body {
     border: 3px solid var(--primaryBlack);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-left: 9%;
-    margin-top: 14%;
+    margin-top: 12%;
     margin-right: 3%;
 }
 
@@ -174,38 +174,43 @@ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 
 
 
-/* Resto del CSS */
-
-/* Media query para dispositivos pequeños */
 @media (max-width: 767px) {
+    
     .main {
-      flex-direction: column; /* Cambia a disposición de columna en dispositivos pequeños */
-      align-items: center; /* Centra los elementos en dispositivos pequeños */
+      flex-direction: column;
+      align-items: center;
     }
   
     .main-left {
-      order: 1; /* Cambia el orden para que main-left esté arriba en dispositivos pequeños */
-      margin: 10px 0; /* Ajusta el margen para centrar la imagen */
-      width: 80%; /* Ajusta el ancho de main-left */
+      order: 1;
+      margin: 10px 0;
+      width: 80%;
       display: flex;
-      justify-content: center; /* Centra la imagen */
+      justify-content: center;
     }
   
     .main-right {
-      order: 2; /* Cambia el orden para que main-right esté abajo en dispositivos pequeños */
-      margin: 0 20px; /* Ajusta el margen izquierdo y derecho para el texto */
-      width: 80%; /* Ajusta el ancho de main-right */
+      order: 2;
+      margin: 0 20px;
+      width: 80%;
     }
   
     .main-right-text {
-      margin-top: 20px; /* Ajusta el margen superior del texto en dispositivos pequeños */
+      margin-top: 20px;
     }
   
-    .btn, .btn2 {
-      width: 80%; /* Ajusta el ancho de los botones en dispositivos pequeños */
-      margin: 10px 0; /* Ajusta el margen en dispositivos pequeños */
+    .btn {
+      width: 50%; 
+      margin: 10px 5%; 
+      word-spacing: -0.25em; 
     }
-  }
+
+    .btn2 {
+      width: 50%; 
+      margin: 10px 5%; 
+      word-spacing: -0.25em;
+    }
+}
+
   
-  /* Resto del CSS */
   

@@ -142,7 +142,7 @@ nav ul li a:hover {
 
 
 .box-contacto {
-    margin-top: 20vh;
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,10 +151,9 @@ nav ul li a:hover {
 .box-contacto h1 {
     text-align: center;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     width: 100%;
     margin-top: 5vh;
-   /*  margin-bottom: 6vh; */
     z-index: 1;
     font-size: 10vh;
     color: var(--white);
@@ -203,12 +202,8 @@ nav ul li a:hover {
 
 
 .container-index {
-<<<<<<< HEAD
     margin-top: 10vh;
     margin-bottom: 13vh;
-=======
-    margin-top: 5rem;
->>>>>>> b5e1782d7852c0d58c25f1a944ef7628f6d9adb5
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -225,16 +220,12 @@ nav ul li a:hover {
     width: 300px; 
     height: 400px; 
     margin: 10px; 
-<<<<<<< HEAD
     transition: 0.3s ease-in-out;
     border: 2px solid var(--compGrey);
     box-shadow: 5px 5px 5px var(--compGrey);
 }
 .card:hover {
     transform: scale(1.05);
-=======
-    
->>>>>>> b5e1782d7852c0d58c25f1a944ef7628f6d9adb5
 }
 
 .centered-cards {

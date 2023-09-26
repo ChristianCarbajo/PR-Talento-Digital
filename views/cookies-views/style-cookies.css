@@ -22,10 +22,10 @@
     font-size: 1rem;
 }
 
-.tabular {
+.text-about tabular {
     display: flex;
-    justify-content: left;
-    text-align: justify;
+    justify-content: flex-start;
+    text-align: left;
     padding-left: 2rem;
     font-family: 'FiraCode-Regular';
     font-size: 1rem;
@@ -79,7 +79,7 @@ nav {
     left: 0;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding-top: 10px;
     background: var(--white);
     z-index: 1;
     display: flex;
@@ -149,7 +149,7 @@ nav ul li a:hover {
 
 .logo img {
     max-width: 200px;
-    margin-left: 0vh;
+    margin-left: 3vh;
 }
 
 .header-logo {

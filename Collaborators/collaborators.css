@@ -47,6 +47,9 @@
     margin: 0;
 }
 
+article {
+    margin-top: 20vh;
+}
 .prueba{
     font-family: 'Rubik-Poppins.Bold', Helvetica, sans-serif;
 }
@@ -167,22 +170,40 @@ nav ul li a:hover {
     gap: 10px;
     justify-items: center;
     align-items: center;
-    margin-bottom: 5vh;
+    margin-bottom: 17vh;
+    margin-top: 15vh;
+    
 }
 .box {
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 .box h1{  
-    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    margin-top: 5vh;
     margin-bottom: 6vh;
     z-index: 1;
-    font-size: 5vw;
-    color: var(--primaryOrange);
-    font-family: 'Rubik-Bold';
-    top: -20vh;
+    font-size: 10vh;
+    color: var(--white);
+    background-color: var(--primaryOrange);
+    font-family: 'Rubik-Medium';
+    animation: gradientanimation 5s infinite;
+}
+@keyframes gradientanimation {
+    0% {
+        color: var(--white);
+    }
+    50% {
+        color: var(--compCoral);
+    }
+    100% {
+        color: var(--white);
+    }
 }
 .box img{
     position: relative;
@@ -270,9 +291,10 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
     }
-    .box h1 {
+    /* .box h1 {
         margin-bottom: 10vh;
-    }
+        margin-top: 10vh;
+    } */
 }
 @media (max-width: 800px) {
     .box-cards {

@@ -6,6 +6,16 @@
     --compCoral: #FFA37F;
 }
 
+.text-about p{
+    font-family: 'FiraCode-Regular';
+    font-size: 1rem;
+}
+
+.text-about h2{
+    font-family:  'Poppins.Bold';
+    font-size: 1.5rem;
+}
+
 @font-face {
     font-family: 'FiraCode-Light';
     src: url('../../fonts/FiraCode-Light.ttf');
@@ -13,7 +23,7 @@
 
 @font-face{
     font-family: 'FiraCode-Regular';
-    src: url('../fonts/FiraCode-Regular.ttf');
+    src: url('../../fonts/FiraCode-Regular.ttf');
 }
 
 @font-face{
@@ -46,13 +56,7 @@
     margin: 0;
 }
 
-.prueba{
-    font-family: 'Rubik-Poppins.Bold', Helvetica, sans-serif;
-}
 
-header {
-    margin-bottom: 5vh;
-}
 nav {
     position: absolute;
     top: 0;
@@ -60,7 +64,7 @@ nav {
     width: 100%;
     height: auto;
     padding: 10px 0;
-    background: var();
+    background: var(--white);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -85,7 +89,6 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     flex-grow: 1;
-    margin-right: 3vh;
 }
 
 nav ul li {
@@ -94,13 +97,13 @@ nav ul li {
     font-size: 2rem;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--primaryOrange);
+    padding: 12px 30px;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    font-family: 'Poppins.Bold';
-    font-weight: bold;
+    font-family: 'Rubik-Medium';
     text-transform: uppercase;
 }
 
@@ -109,7 +112,6 @@ nav ul li a:hover {
     border-radius: 16px;
     color: var(--white);
     transition: background 0.3s ease-in-out;
-   
 }
 
 .menu-toggle {
@@ -131,192 +133,23 @@ nav ul li a:hover {
 
 .logo img{
     max-width: 200px; 
-    margin-left: 3vh;
-    margin-top: 1vh;
 }
-
-.header-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: var(--primaryOrange);
-    font-family: Rubik-Medium;
-    z-index: 2;
-    
-}
-
-.header-logo h1,
-.header-logo h2 {
-    color: var(--primaryOrange);
-    font-family: Rubik-Medium;
-    font-size: 3rem;
-    padding: 1rem;
-    color: var(--primaryOrange);
-    font-weight: bold;
-}
-
-
-.box-cards {
-    width: 100%;
-    background-color: var(--white);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.box h1 {  
-    position: relative;
-    margin-bottom: 6vh;
-    z-index: 1;
-    font-size: 7vw;
-    color: var(--primaryOrange);
-
-    font-family: 'Rubik-Bold';
-    top: -20vh;
-}
-
-.box img {
-    position: relative;
-    background-color: var(--white);
-    opacity: .8;
-    filter: saturate(180%);
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    top: 17vh;               
-}
-
-.cards {
-    width: 20rem;
-    height: 18rem;
-    background-color: var(--primaryOrange);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1vh;
-    transition: 0.3s ease-in-out;
-    border: 2px solid var(--compGrey);
-    box-shadow: 5px 5px 5px var(--compGrey);
-}
-
-.cards img {
-    object-fit: cover;
-    width: 100%; 
-}
-
-.cards:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    width: 100%;
-    background-color: var(--primaryOrange); 
-    text-align: center;
-    color: var(--white);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-footer h3{
-    font-family:'Poppins.Bold';
-}
-
-footer a {
-    font-family: 'FiraCode-Regular';
-}
-
-.footer-logo {
-    display: block;
-    margin: 0 auto; 
-    max-width: 8rem; 
-}
-
-.links-footer {
-    margin-top: 20px;
-}
-
-.links-footer p,
-.links-footer a {
-    color: #fff; 
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-}
-
-.social-footer {
-    margin-top: 20px;
-}
-
-.social-footer img {
-    width: 30px; 
-    margin: 0 10px;
-}
-@media (max-width: 1100px){
-    .container-header{
-            flex-direction: column;
-            align-items: center;
-    }
-    .box-cards {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
-    }
-    .box h1 {
-        margin-bottom: 10vh;
-    }
-}
-@media (max-width: 800px) {
-    .box-cards {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
-    }
-    .cards{
-        width: 17rem;
-        height: 15rem;
-        background-color: var(--primaryOrange);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 1vh;
-        transition: border 0.2s ease;
-        margin-top: 5vh
-    }
-    header h2 {
-        font-size: medium;
-        margin: 2vh;
-    }
-}
-@media (max-width: 600px){
-    .container-header{
-            flex-direction: column;
-            align-items: center;
-    }
-    .box-cards {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, auto);
-    }
-    header h2 {
-        font-size:small;
-        margin: 1vh;
-    }
-}
-
-
 
 @media (max-width: 768px) {
+    .video-prin {
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .video-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+
     .menu-toggle {
         display: flex;
         flex-direction: column;
@@ -387,20 +220,25 @@ footer a {
         text-decoration: none;
         font-size: 18px;
     }
-
-    .card-group {
+}   
+ @media (max-width: 768px) {
+    .container-index,
+    .container-index-right {
         flex-direction: column; 
-        margin: 0; 
+        align-items: center; 
+        text-align: center; 
     }
 
-    .container-index {
-        max-width: 100%; 
-        margin: 10px 0; 
+    .container-index .text-about,
+    .container-index-right .text-about {
+        padding: 20px; 
+    }
+
+    .container-index img,
+    .container-index-right img {
+        width: 100%; 
+        max-width: none; 
+        height: auto; 
+    }
 }
 
-@media (max-width: 500px) {
-   .box img {
-    margin-bottom: 3vh;
-   } 
-}
-}

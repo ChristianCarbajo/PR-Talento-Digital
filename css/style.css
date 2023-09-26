@@ -210,6 +210,11 @@ nav ul li a:hover {
     height: auto;
 }
 
+.img-chica{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
 .container-index img{
     width: 90%; 
     max-width: 100%; 

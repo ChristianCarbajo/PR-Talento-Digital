@@ -46,6 +46,10 @@
     src: url('../../fonts/Rubik-Medium.ttf');
 }
 
+h1{
+    font-size: 2rem;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -148,6 +152,14 @@ nav ul li a:hover {
 
 }
 
+.card-data-user {
+    border: 2px solid var(--primaryOrange);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
 .tittle-form{
     margin-top: 10rem;
     display: flex;
@@ -156,7 +168,7 @@ nav ul li a:hover {
 }
 legend {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Poppins.Bold';
     margin-bottom: 10px;
     text-align: center;
@@ -167,8 +179,8 @@ legend {
 fieldset{
     border-radius: 20px;
     border: 4px solid var(--primaryOrange);
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 170px;
+    margin-right: 170px;
     margin-top: 70px;
     padding-top: 1rem;
     padding-bottom: 50px;
@@ -326,14 +338,24 @@ input[type="radio"] {
 }
 
 @media (max-width: 768px) {
-
+    h1{
+        font-size: 1.5rem;
+    }
     fieldset {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
 
    
     }
+
+    .tittle-form h1{
+        text-align: center;
+     
+    }
+
 
     input[type="radio"] {
         margin-top: 5px;
@@ -344,11 +366,7 @@ input[type="radio"] {
 
 
     legend{
-        font-size: 24px;
-    }
-
-    .tittle-form {
-        margin-top: 5rem;
+        font-size: 20px;
     }
 
     .card-data-user {
@@ -458,7 +476,4 @@ input[type="radio"] {
 
 
       
-
-
-
 

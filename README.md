@@ -34,3 +34,7 @@ Este proyecto ha sido posible gracias a la colaboración de profesionales de div
 Para utilizar la herramienta, los usuarios deben registrarse con su dirección de correo electrónico de confirmación. Una vez registrados, podrán acceder al formulario de autoevaluación y completarlo. Posteriormente, recibirán por correo electrónico un formulario más detallado que deberán completar y entregar a su orientador laboral.
 
 Gracias por unirte a nuestra lucha por un futuro digital más inclusivo y equitativo. Si deseas obtener más información o colaborar con nosotros, no dudes en ponerte en contacto con nosotros en [contacto@factoriaf5.org](mailto:contacto@factoriaf5.org).
+
+### DISEÑADORES DEL PROYECTO
+
+Luis Pardo, Carlos Uribe, Borja Fernandez, Alejandro Junquera, Álvaro Sanchez, Stiven Diaz Torres, Sara Lorenzo

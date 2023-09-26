@@ -1,4 +1,3 @@
-//Ocolutar icono y texto header en responsive
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const logo = document.querySelector('.logo');
@@ -11,7 +10,6 @@ menuToggle.addEventListener('click', () => {
 });
 
 
-//Animación colaboladores
 document.addEventListener('DOMContentLoaded', function () {
     const containerIndexes = document.querySelectorAll('.container-index');
     containerIndexes.forEach(function (container) {
@@ -19,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Animación colaboladores
 document.addEventListener('DOMContentLoaded', function () {
     const containerIndexes = document.querySelectorAll('.container-index');
     containerIndexes.forEach(function (container) {
@@ -28,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// FUNCIÓN DEL CORREO
 
 function saveEmail() {
     const emailInput = document.getElementById("email");
@@ -39,11 +35,4 @@ function saveEmail() {
 
 }
 
-function sendForm() {
 
-    const emailInput = document.getElementById("email");
-    const email = emailInput.value;
-    const form = document.getElementById("myForm2");
-    form.action = `https://formsubmit.co/${email}`;
-
-}

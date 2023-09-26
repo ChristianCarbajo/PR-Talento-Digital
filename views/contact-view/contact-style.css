@@ -132,10 +132,41 @@ nav ul li a:hover {
 }
 
 
+.box-contacto {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
+.box-contacto h1 {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    margin-top: 5vh;
+   /*  margin-bottom: 6vh; */
+    z-index: 1;
+    font-size: 10vh;
+    color: var(--white);
+    background-color: var(--primaryOrange);
+    font-family: 'Rubik-Medium';
+    animation: gradientanimation 5s infinite;
+}
+@keyframes gradientanimation {
+    0% {
+        color: var(--white);
+    }
+    50% {
+        color: var(--compCoral);
+    }
+    100% {
+        color: var(--white);
+    }
+}
 .logo img{
     max-width: 200px; 
+    margin-left: 3vh;
 }
 
 .header-logo {
@@ -162,7 +193,8 @@ nav ul li a:hover {
 }
 
 .container-index {
-    margin-top: 10rem;
+    margin-top: 10vh;
+    margin-bottom: 13vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -170,6 +202,7 @@ nav ul li a:hover {
 
 
 .card {
+    align-items: center;
     color: var(--white);
     border-radius: 30px;
     background: var(--primaryOrange);
@@ -178,6 +211,12 @@ nav ul li a:hover {
     width: 300px; 
     height: 400px; 
     margin: 10px; 
+    transition: 0.3s ease-in-out;
+    border: 2px solid var(--compGrey);
+    box-shadow: 5px 5px 5px var(--compGrey);
+}
+.card:hover {
+    transform: scale(1.05);
 }
 
 .centered-cards {
@@ -199,6 +238,7 @@ nav ul li a:hover {
 }
 
 .card ul li{
+    margin-top: 5vh;
     font-size: 1.5rem;
     font-family: 'Poppins.Medium' ;
 }

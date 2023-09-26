@@ -35,11 +35,4 @@ function saveEmail() {
 
 }
 
-// function sendForm() {
 
-//     const emailInput = document.getElementById("email");
-//     const email = emailInput.value;
-//     const form = document.getElementById("myForm2");
-//     form.action = `https://formsubmit.co/${email}`;
-
-// }

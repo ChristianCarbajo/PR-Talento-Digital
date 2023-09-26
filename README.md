@@ -22,10 +22,15 @@ El **Detector de Talento Digital Oculto (TADGIO)** combina varios métodos de ev
 
 Es esencial destacar que el TADGIO es una herramienta orientativa que debe adaptarse a las necesidades específicas de cada organización o al tipo de talento digital que se busca. En caso de duda frente a los resultados obtenidos, el criterio de la persona evaluadora debe prevalecer.
 
-## Conclusión
+## Descripción de la Herramienta Web
 
-El proyecto Talento Digital Oculto (TADGIO) busca combatir la brecha digital y promover la inclusión y equidad en el ámbito digital. Reconociendo y valorando el talento digital oculto y diverso, aspiramos a impulsar el progreso y desarrollo de la sociedad, creando un ecosistema digital más inclusivo y enriquecedor.
+La herramienta web del Proyecto Talento Digital Oculto (TADGIO) es una plataforma diseñada para facilitar la detección del talento digital oculto y diverso en personas en situación de vulnerabilidad. A través de esta plataforma, los usuarios pueden registrarse, completar un formulario de autoevaluación y participar en entrevistas virtuales con orientadores laborales.
 
-Si deseas obtener más información sobre el TADGIO o colaborar con nosotros en esta misión, no dudes en ponerte en contacto con nosotros en [contacto@factoriaf5.org](mailto:asturias@factoriaf5.org).
+### Colaboradores
 
-Gracias por unirte a nuestra lucha por un futuro digital más inclusivo y equitativo.
+Este proyecto ha sido posible gracias a la colaboración de profesionales de diversas disciplinas, incluyendo el personal de Factoría F5 y SomosF5, Mar de niebla, Universidad de oviedo, gobierno del principado de Asturias, y con los fondos europeos next-genetation.
+### Registro y Formulario
+
+Para utilizar la herramienta, los usuarios deben registrarse con su dirección de correo electrónico de confirmación. Una vez registrados, podrán acceder al formulario de autoevaluación y completarlo. Posteriormente, recibirán por correo electrónico un formulario más detallado que deberán completar y entregar a su orientador laboral.
+
+Gracias por unirte a nuestra lucha por un futuro digital más inclusivo y equitativo. Si deseas obtener más información o colaborar con nosotros, no dudes en ponerte en contacto con nosotros en [contacto@factoriaf5.org](mailto:contacto@factoriaf5.org).

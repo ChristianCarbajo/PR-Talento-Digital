@@ -235,9 +235,6 @@ nav ul li a:hover {
     width: 100%; 
 }
 
-.cards:hover {
-    transform: scale(1.05);
-}
 
 footer {
     width: 100%;

@@ -55,7 +55,11 @@ nav {
     width: 100%;
     height: auto;
     padding: 10px 0;
+<<<<<<< HEAD
     background: var(--white);
+=======
+    background: rgba(0, 0, 0, 0.144);
+>>>>>>> conectortest
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -84,7 +88,11 @@ nav ul {
 
 nav ul li {
     margin: 0 10px;
+<<<<<<< HEAD
     font-family: 'Rubik-Medium';
+=======
+    font-family: Rubik-Medium;
+>>>>>>> conectortest
     font-size: 2rem;
 }
 
@@ -116,21 +124,33 @@ nav ul li a:hover {
 .bar {
     width: 25px;
     height: 3px;
+<<<<<<< HEAD
     background-color: var(--primaryBlack);
+=======
+    background-color: var(--white);
+>>>>>>> conectortest
     margin: 3px 0;
     transition: 0.4s;
 }
 
 
 .logo img{
+<<<<<<< HEAD
     max-width: 200px;
     margin-left: 7%; 
+=======
+    max-width: 200px; 
+>>>>>>> conectortest
 }
 
 .header-logo h1,
 .header-logo h2 {
     color: var(--primaryOrange);
+<<<<<<< HEAD
     font-family: 'Rubik-Medium';
+=======
+    font-family: Rubik-Medium;
+>>>>>>> conectortest
     font-size: 3rem;
     padding: 1rem;
     color: var(--primaryOrange);
@@ -139,7 +159,10 @@ nav ul li a:hover {
 
 .container-index-top {
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Rubik-Medium';
+=======
+>>>>>>> conectortest
     line-height: 2.5em;
     margin-top: 6.5rem;   
     padding: 3.5rem;
@@ -166,16 +189,24 @@ nav ul li a:hover {
 .container-index {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   font-family: 'Poppins.Light';
   align-items: stretch; 
   margin-bottom: 3rem; 
+=======
+  align-items: stretch; 
+  margin-bottom: rem; 
+>>>>>>> conectortest
   padding: 4rem;
 }
 
 .container-index-right {
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     font-family: 'Poppins.Light';
+=======
+>>>>>>> conectortest
     align-items: stretch;
     margin-top: 3rem;
     margin-bottom: 3rem; 
@@ -184,7 +215,10 @@ nav ul li a:hover {
     background-color: var(--primaryOrange);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> conectortest
 .image-wrapper {
     transform: scaleX(-1); 
 }
@@ -198,10 +232,14 @@ nav ul li a:hover {
     align-items: center;
     padding: 30px;
     text-align: justify;
+<<<<<<< HEAD
 }
 
 .tex-title {
     font-family: 'Rubik-Medium';
+=======
+
+>>>>>>> conectortest
 }
 
 .img-about img {
@@ -262,9 +300,13 @@ margin-bottom: 90px;
 footer {
     background-color: var(--primaryOrange); 
     text-align: center;
+<<<<<<< HEAD
     color: var(--white);
     padding-top: 2rem;
     padding-bottom: 2rem;
+=======
+    color: var(--white); 
+>>>>>>> conectortest
 }
 
 footer h3{
@@ -278,7 +320,11 @@ footer a {
 .footer-logo {
     display: block;
     margin: 0 auto; 
+<<<<<<< HEAD
     max-width: 8rem; 
+=======
+    max-width: 200px; 
+>>>>>>> conectortest
 }
 
 .links-footer {
@@ -303,8 +349,26 @@ footer a {
 }
 
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
     
+=======
+
+@media (max-width: 768px) {
+    .video-prin {
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .video-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+    }
+>>>>>>> conectortest
 
     .menu-toggle {
         display: flex;

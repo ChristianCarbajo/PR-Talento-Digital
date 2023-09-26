@@ -149,6 +149,7 @@ nav ul li a:hover {
 
 .logo img {
     max-width: 200px;
+    margin-left: 0vh;
 }
 
 .header-logo {

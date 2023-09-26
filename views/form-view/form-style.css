@@ -470,4 +470,10 @@ input[type="radio"] {
 
 
 
+ @media (max-width: 600px) {
+    legend{
+        font-size: 0.5rem;
 
+    }
+
+ }

@@ -153,6 +153,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 4rem;
 }
 .box h1{  
     padding-top: 10vh;
@@ -260,6 +261,10 @@ footer a {
     .video-prin {
         max-width: 100%;
         height: 100vh;
+    }
+
+    .box{
+        margin-top: 5rem;
     }
 
     .video-section {

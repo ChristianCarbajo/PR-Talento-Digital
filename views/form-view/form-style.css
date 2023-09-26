@@ -148,6 +148,14 @@ nav ul li a:hover {
 
 }
 
+.card-data-user {
+    border: 2px solid var(--primaryOrange);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
 .tittle-form{
     margin-top: 10rem;
     display: flex;
@@ -335,6 +343,11 @@ input[type="radio"] {
    
     }
 
+    .tittle-form h1{
+        text-align: center;
+     
+    }
+
     input[type="radio"] {
         margin-top: 5px;
         margin-right: 1rem; 
@@ -345,10 +358,6 @@ input[type="radio"] {
 
     legend{
         font-size: 24px;
-    }
-
-    .tittle-form {
-        margin-top: 5rem;
     }
 
     .card-data-user {

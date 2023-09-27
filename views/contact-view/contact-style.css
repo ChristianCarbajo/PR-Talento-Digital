@@ -354,6 +354,7 @@ footer a {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 10px;
     }
     
     .card-container {
@@ -468,7 +469,14 @@ footer a {
         height: 450px
     }
 }
-
+@media (max-width: 1000px) {
+    .container-index,
+        .container-index-right {
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
+        }
+}
  
 
 
